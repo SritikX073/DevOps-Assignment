@@ -3,5 +3,6 @@ const app = require('express')();
 const PORT = 3000;
 
 app.listen(PORT, () => {
-    console.log('Listening on Port', PORT);
+    console.log('Listening on Port :', PORT);
+    console.log('Reading from Port :', PORT);
 })
